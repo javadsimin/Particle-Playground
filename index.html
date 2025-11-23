@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div class="ui-panel">
+        <div class="ui-header">
+            <h2>Controls</h2>
+            <button id="toggle-ui" aria-label="Minimize UI">_</button>
+        </div>
+
+        <div class="control-group">
+            <label class="switch">
+                <input type="checkbox" id="trail-toggle" checked>
+                <span class="slider round"></span>
+                <span class="label-text">Trails</span>
+            </label>
+        </div>
+
+        <div class="control-group">
+            <label class="switch">
+                <input type="checkbox" id="repel-toggle" checked>
+                <span class="slider round"></span>
+                <span class="label-text">Repel</span>
+            </label>
+        </div>
+
+        <div class="control-group">
+            <label class="switch">
+                <input type="checkbox" id="orbit-toggle">
+                <span class="slider round"></span>
+                <span class="label-text">Orbit</span>
+            </label>
+        </div>
+
+        <div class="control-group slider-group">
+            <label for="particle-count">Particles: <span id="count-display">800</span></label>
+            <input type="range" id="particle-count" min="100" max="1500" value="800">
+        </div>
+
+        <div class="control-group">
+            <label class="switch">
+                <input type="checkbox" id="dark-mode-toggle" checked>
+                <span class="slider round"></span>
+                <span class="label-text">Dark Mode</span>
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

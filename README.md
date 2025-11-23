@@ -1,5 +1,7 @@
 # Particle Playground – My First Google Antigravity Web App
 
+Check it here: https://javadsimin.github.io/Particle-Playground
+
 This is the **first ever web app** I’ve created using **Google Antigravity**.  
 It took about **5 minutes** from idea to running app, mainly as a test to see how the tool works and what kind of code it generates.
 
